@@ -32,7 +32,7 @@ fun FormulirMahasiswaView (modifier: Modifier = Modifier, //
 
     val listData: MutableList<String> = mutableListOf(nama, gender, alamat, email, notelp)
 
-    Column(modifier = modifier.fillMaxSize().padding(16.dp),
+    Column(modifier = modifier.fillMaxSize().padding(16.dp), //
         horizontalAlignment = Alignment.CenterHorizontally) {
         TextField(
             value = nama,
