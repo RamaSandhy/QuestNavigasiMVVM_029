@@ -20,7 +20,7 @@ fun DetailMahasiswaView ( //
         .fillMaxSize()
         .padding(16.dp))
     {
-        TampilData(Param = "Nama", Argu = uiState.nama)
+        TampilData(Param = "Nama", Argu = uiState.nama) //
         TampilData(Param = "Jenis Kelamin", Argu = uiState.gender)
         TampilData(Param = "Alamat", Argu = uiState.alamat)
         TampilData(Param = "Email", Argu = uiState.email)
