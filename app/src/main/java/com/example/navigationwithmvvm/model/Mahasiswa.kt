@@ -7,4 +7,5 @@ data class Mahasiswa (
     val gender: String = "",
     val email: String = "",
     val noHp: String = ""
+
 )
