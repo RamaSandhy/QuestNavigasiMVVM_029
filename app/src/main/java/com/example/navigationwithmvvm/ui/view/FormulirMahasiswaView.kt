@@ -20,7 +20,7 @@ import androidx.compose.ui.unit.dp
 
 //@Preview(showBackground = true)
 @Composable
-fun FormulirMahasiswaView (modifier: Modifier = Modifier,
+fun FormulirMahasiswaView (modifier: Modifier = Modifier, //
                            listJK: List<String>,
                            onSumbitClicked: (MutableList<String>) -> Unit
 ){
