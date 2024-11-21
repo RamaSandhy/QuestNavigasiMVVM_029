@@ -33,7 +33,7 @@ fun DetailMahasiswaView ( //
 }
 
 @Composable
-fun TampilData(Param : String, Argu : String){
+fun TampilData(Param : String, Argu : String){ //
     Column(modifier = Modifier.padding(16.dp)) {
         Row(modifier = Modifier.fillMaxWidth(),
             horizontalArrangement = Arrangement.SpaceBetween) {
