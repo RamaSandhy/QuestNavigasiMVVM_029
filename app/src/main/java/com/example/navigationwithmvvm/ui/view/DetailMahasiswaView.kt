@@ -12,7 +12,7 @@ import androidx.compose.ui.unit.dp
 import com.example.navigationwithmvvm.model.Mahasiswa
 
 @Composable
-fun DetailMahasiswaView (
+fun DetailMahasiswaView ( //
     uiState: Mahasiswa,
     onBackButton: () -> Unit)
 {
