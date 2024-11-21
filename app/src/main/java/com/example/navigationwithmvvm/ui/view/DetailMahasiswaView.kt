@@ -16,7 +16,7 @@ fun DetailMahasiswaView ( //
     uiState: Mahasiswa,
     onBackButton: () -> Unit)
 {
-    Column(modifier = Modifier
+    Column(modifier = Modifier //
         .fillMaxSize()
         .padding(16.dp))
     {
